@@ -120,3 +120,7 @@ Only top-level folder names are published; historical subfolder names and filena
 - Documentation/config/demo/tests are newly authored, not copied from private artifacts.
 - License is MANUAL_REVIEW; no license was invented.
 - Existing local dependency overlays were used for smoke tests. Fresh installation remains unverified.
+
+## Publication update
+
+The owner-created remote repository supplied an Unlicense LICENSE. It is retained unchanged; no license was invented during export. Remote initial history is preserved through a merge. The earlier license review entry describes the pre-publication state.

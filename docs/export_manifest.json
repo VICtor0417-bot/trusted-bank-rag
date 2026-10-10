@@ -39,9 +39,9 @@
   "source_moves": 0,
   "source_deletes": 0,
   "manual_review": [
-    "License selection",
     "Historic tests/tools/docs not cleared for redistribution",
     "Fresh isolated install",
     "Private Gate OR Jev wrapper excluded"
-  ]
+  ],
+  "license": "Unlicense retained from owner-created GitHub initial commit"
 }
