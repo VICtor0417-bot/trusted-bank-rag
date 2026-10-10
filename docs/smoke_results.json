@@ -1,0 +1,15 @@
+{
+  "imports": true,
+  "workflow_compiled": true,
+  "indexed_records": 21,
+  "demo_queries_with_evidence": 4,
+  "demo_queries": 4,
+  "tests_passed": 2,
+  "api_calls": 0,
+  "llm_generation_verified": false,
+  "fresh_install_verified": false,
+  "environment": "Existing local dependency overlays; no copied environment directories",
+  "initial_failure": "Default continuous-Chinese BM25 query gave empty retrieval; production tokenizer unchanged; synthetic demo uses explicit English field labels",
+  "readme_commands": "demo and tests checked via Python execution with existing environment; install command not executed",
+  "original_project": "No intentional writes, deletes or moves; copied implementation and selected root files hash-checked unchanged"
+}

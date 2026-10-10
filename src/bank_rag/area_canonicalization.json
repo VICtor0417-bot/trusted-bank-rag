@@ -1,0 +1,1346 @@
+[
+  {
+    "raw_value": "3676799.53462444",
+    "canonical_value": "3676799.53462444"
+  },
+  {
+    "raw_value": "512698.856083254",
+    "canonical_value": "512698.856083254"
+  },
+  {
+    "raw_value": "七台河",
+    "canonical_value": "七台河市"
+  },
+  {
+    "raw_value": "三亚",
+    "canonical_value": "三亚市"
+  },
+  {
+    "raw_value": "三明",
+    "canonical_value": "三明市"
+  },
+  {
+    "raw_value": "三沙",
+    "canonical_value": "三沙市"
+  },
+  {
+    "raw_value": "三门峡",
+    "canonical_value": "三门峡市"
+  },
+  {
+    "raw_value": "上饶",
+    "canonical_value": "上饶市"
+  },
+  {
+    "raw_value": "东莞",
+    "canonical_value": "东莞市"
+  },
+  {
+    "raw_value": "东营",
+    "canonical_value": "东营市"
+  },
+  {
+    "raw_value": "中卫",
+    "canonical_value": "中卫市"
+  },
+  {
+    "raw_value": "中山",
+    "canonical_value": "中山市"
+  },
+  {
+    "raw_value": "临夏回族",
+    "canonical_value": "临夏回族自治州"
+  },
+  {
+    "raw_value": "临汾",
+    "canonical_value": "临汾市"
+  },
+  {
+    "raw_value": "临沂",
+    "canonical_value": "临沂市"
+  },
+  {
+    "raw_value": "临沧",
+    "canonical_value": "临沧市"
+  },
+  {
+    "raw_value": "丹东",
+    "canonical_value": "丹东市"
+  },
+  {
+    "raw_value": "丽水",
+    "canonical_value": "丽水市"
+  },
+  {
+    "raw_value": "丽江",
+    "canonical_value": "丽江市"
+  },
+  {
+    "raw_value": "乌兰察布",
+    "canonical_value": "乌兰察布市"
+  },
+  {
+    "raw_value": "乌海",
+    "canonical_value": "乌海市"
+  },
+  {
+    "raw_value": "乌鲁木齐",
+    "canonical_value": "乌鲁木齐市"
+  },
+  {
+    "raw_value": "乐山",
+    "canonical_value": "乐山市"
+  },
+  {
+    "raw_value": "九江",
+    "canonical_value": "九江市"
+  },
+  {
+    "raw_value": "云浮",
+    "canonical_value": "云浮市"
+  },
+  {
+    "raw_value": "亳州",
+    "canonical_value": "亳州市"
+  },
+  {
+    "raw_value": "伊春",
+    "canonical_value": "伊春市"
+  },
+  {
+    "raw_value": "伊犁",
+    "canonical_value": "伊犁哈萨克自治州"
+  },
+  {
+    "raw_value": "佛山",
+    "canonical_value": "佛山市"
+  },
+  {
+    "raw_value": "佳木斯",
+    "canonical_value": "佳木斯市"
+  },
+  {
+    "raw_value": "保定",
+    "canonical_value": "保定市"
+  },
+  {
+    "raw_value": "保山",
+    "canonical_value": "保山市"
+  },
+  {
+    "raw_value": "信阳",
+    "canonical_value": "信阳市"
+  },
+  {
+    "raw_value": "儋州",
+    "canonical_value": "儋州市"
+  },
+  {
+    "raw_value": "克孜勒苏",
+    "canonical_value": "克孜勒苏柯尔克孜自治州"
+  },
+  {
+    "raw_value": "克拉玛依",
+    "canonical_value": "克拉玛依市"
+  },
+  {
+    "raw_value": "六安",
+    "canonical_value": "六安市"
+  },
+  {
+    "raw_value": "六盘水",
+    "canonical_value": "六盘水市"
+  },
+  {
+    "raw_value": "兰州",
+    "canonical_value": "兰州市"
+  },
+  {
+    "raw_value": "兴安",
+    "canonical_value": "兴安盟"
+  },
+  {
+    "raw_value": "内江",
+    "canonical_value": "内江市"
+  },
+  {
+    "raw_value": "凉山",
+    "canonical_value": "凉山彝族自治州"
+  },
+  {
+    "raw_value": "包头",
+    "canonical_value": "包头市"
+  },
+  {
+    "raw_value": "北海",
+    "canonical_value": "北海市"
+  },
+  {
+    "raw_value": "十堰",
+    "canonical_value": "十堰市"
+  },
+  {
+    "raw_value": "南京",
+    "canonical_value": "南京市"
+  },
+  {
+    "raw_value": "南充",
+    "canonical_value": "南充市"
+  },
+  {
+    "raw_value": "南宁",
+    "canonical_value": "南宁市"
+  },
+  {
+    "raw_value": "南平",
+    "canonical_value": "南平市"
+  },
+  {
+    "raw_value": "南昌",
+    "canonical_value": "南昌市"
+  },
+  {
+    "raw_value": "南通",
+    "canonical_value": "南通市"
+  },
+  {
+    "raw_value": "南阳",
+    "canonical_value": "南阳市"
+  },
+  {
+    "raw_value": "博尔塔拉",
+    "canonical_value": "博尔塔拉蒙古自治州"
+  },
+  {
+    "raw_value": "厦门",
+    "canonical_value": "厦门市"
+  },
+  {
+    "raw_value": "双鸭山",
+    "canonical_value": "双鸭山市"
+  },
+  {
+    "raw_value": "台州",
+    "canonical_value": "台州市"
+  },
+  {
+    "raw_value": "合肥",
+    "canonical_value": "合肥市"
+  },
+  {
+    "raw_value": "吉安",
+    "canonical_value": "吉安市"
+  },
+  {
+    "raw_value": "吉林市",
+    "canonical_value": "吉林市"
+  },
+  {
+    "raw_value": "吐鲁番",
+    "canonical_value": "吐鲁番市"
+  },
+  {
+    "raw_value": "吕梁",
+    "canonical_value": "吕梁市"
+  },
+  {
+    "raw_value": "吴忠",
+    "canonical_value": "吴忠市"
+  },
+  {
+    "raw_value": "周口",
+    "canonical_value": "周口市"
+  },
+  {
+    "raw_value": "呼伦贝尔",
+    "canonical_value": "呼伦贝尔市"
+  },
+  {
+    "raw_value": "呼和浩特",
+    "canonical_value": "呼和浩特市"
+  },
+  {
+    "raw_value": "和田",
+    "canonical_value": "和田地区"
+  },
+  {
+    "raw_value": "咸宁",
+    "canonical_value": "咸宁市"
+  },
+  {
+    "raw_value": "咸阳",
+    "canonical_value": "咸阳市"
+  },
+  {
+    "raw_value": "哈密",
+    "canonical_value": "哈密市"
+  },
+  {
+    "raw_value": "哈尔滨",
+    "canonical_value": "哈尔滨市"
+  },
+  {
+    "raw_value": "唐山",
+    "canonical_value": "唐山市"
+  },
+  {
+    "raw_value": "商丘",
+    "canonical_value": "商丘市"
+  },
+  {
+    "raw_value": "商洛",
+    "canonical_value": "商洛市"
+  },
+  {
+    "raw_value": "喀什",
+    "canonical_value": "喀什地区"
+  },
+  {
+    "raw_value": "嘉兴",
+    "canonical_value": "嘉兴市"
+  },
+  {
+    "raw_value": "嘉峪关",
+    "canonical_value": "嘉峪关市"
+  },
+  {
+    "raw_value": "四平",
+    "canonical_value": "四平市"
+  },
+  {
+    "raw_value": "固原",
+    "canonical_value": "固原市"
+  },
+  {
+    "raw_value": "塔城",
+    "canonical_value": "塔城地区"
+  },
+  {
+    "raw_value": "大兴安岭",
+    "canonical_value": "大兴安岭地区"
+  },
+  {
+    "raw_value": "大同",
+    "canonical_value": "大同市"
+  },
+  {
+    "raw_value": "大庆",
+    "canonical_value": "大庆市"
+  },
+  {
+    "raw_value": "大理",
+    "canonical_value": "大理白族自治州"
+  },
+  {
+    "raw_value": "大连",
+    "canonical_value": "大连市"
+  },
+  {
+    "raw_value": "天水",
+    "canonical_value": "天水市"
+  },
+  {
+    "raw_value": "太原",
+    "canonical_value": "太原市"
+  },
+  {
+    "raw_value": "威海",
+    "canonical_value": "威海市"
+  },
+  {
+    "raw_value": "娄底",
+    "canonical_value": "娄底市"
+  },
+  {
+    "raw_value": "孝感",
+    "canonical_value": "孝感市"
+  },
+  {
+    "raw_value": "宁德",
+    "canonical_value": "宁德市"
+  },
+  {
+    "raw_value": "宁波",
+    "canonical_value": "宁波市"
+  },
+  {
+    "raw_value": "安庆",
+    "canonical_value": "安庆市"
+  },
+  {
+    "raw_value": "安康",
+    "canonical_value": "安康市"
+  },
+  {
+    "raw_value": "安阳",
+    "canonical_value": "安阳市"
+  },
+  {
+    "raw_value": "安顺",
+    "canonical_value": "安顺市"
+  },
+  {
+    "raw_value": "定西",
+    "canonical_value": "定西市"
+  },
+  {
+    "raw_value": "宜宾",
+    "canonical_value": "宜宾市"
+  },
+  {
+    "raw_value": "宜昌",
+    "canonical_value": "宜昌市"
+  },
+  {
+    "raw_value": "宜春",
+    "canonical_value": "宜春市"
+  },
+  {
+    "raw_value": "宝鸡",
+    "canonical_value": "宝鸡市"
+  },
+  {
+    "raw_value": "宣城",
+    "canonical_value": "宣城市"
+  },
+  {
+    "raw_value": "宿州",
+    "canonical_value": "宿州市"
+  },
+  {
+    "raw_value": "宿迁",
+    "canonical_value": "宿迁市"
+  },
+  {
+    "raw_value": "山南",
+    "canonical_value": "山南市"
+  },
+  {
+    "raw_value": "岳阳",
+    "canonical_value": "岳阳市"
+  },
+  {
+    "raw_value": "崇左",
+    "canonical_value": "崇左市"
+  },
+  {
+    "raw_value": "巴中",
+    "canonical_value": "巴中市"
+  },
+  {
+    "raw_value": "巴彦淖尔",
+    "canonical_value": "巴彦淖尔市"
+  },
+  {
+    "raw_value": "巴音郭楞",
+    "canonical_value": "巴音郭楞蒙古自治州"
+  },
+  {
+    "raw_value": "常州",
+    "canonical_value": "常州市"
+  },
+  {
+    "raw_value": "常德",
+    "canonical_value": "常德市"
+  },
+  {
+    "raw_value": "平凉",
+    "canonical_value": "平凉市"
+  },
+  {
+    "raw_value": "平顶山",
+    "canonical_value": "平顶山市"
+  },
+  {
+    "raw_value": "广元",
+    "canonical_value": "广元市"
+  },
+  {
+    "raw_value": "广安",
+    "canonical_value": "广安市"
+  },
+  {
+    "raw_value": "广州",
+    "canonical_value": "广州市"
+  },
+  {
+    "raw_value": "庆阳",
+    "canonical_value": "庆阳市"
+  },
+  {
+    "raw_value": "廊坊",
+    "canonical_value": "廊坊市"
+  },
+  {
+    "raw_value": "延安",
+    "canonical_value": "延安市"
+  },
+  {
+    "raw_value": "延边朝鲜族",
+    "canonical_value": "延边朝鲜族自治州"
+  },
+  {
+    "raw_value": "开封",
+    "canonical_value": "开封市"
+  },
+  {
+    "raw_value": "张家口",
+    "canonical_value": "张家口市"
+  },
+  {
+    "raw_value": "张家界",
+    "canonical_value": "张家界市"
+  },
+  {
+    "raw_value": "张掖",
+    "canonical_value": "张掖市"
+  },
+  {
+    "raw_value": "徐州",
+    "canonical_value": "徐州市"
+  },
+  {
+    "raw_value": "德宏",
+    "canonical_value": "德宏傣族景颇族自治州"
+  },
+  {
+    "raw_value": "德州",
+    "canonical_value": "德州市"
+  },
+  {
+    "raw_value": "德阳",
+    "canonical_value": "德阳市"
+  },
+  {
+    "raw_value": "忻州",
+    "canonical_value": "忻州市"
+  },
+  {
+    "raw_value": "怀化",
+    "canonical_value": "怀化市"
+  },
+  {
+    "raw_value": "怒江傈僳族",
+    "canonical_value": "怒江傈僳族自治州"
+  },
+  {
+    "raw_value": "恩施",
+    "canonical_value": "恩施土家族苗族自治州"
+  },
+  {
+    "raw_value": "惠州",
+    "canonical_value": "惠州市"
+  },
+  {
+    "raw_value": "成都",
+    "canonical_value": "成都市"
+  },
+  {
+    "raw_value": "扬州",
+    "canonical_value": "扬州市"
+  },
+  {
+    "raw_value": "承德",
+    "canonical_value": "承德市"
+  },
+  {
+    "raw_value": "抚州",
+    "canonical_value": "抚州市"
+  },
+  {
+    "raw_value": "抚顺",
+    "canonical_value": "抚顺市"
+  },
+  {
+    "raw_value": "拉萨",
+    "canonical_value": "拉萨市"
+  },
+  {
+    "raw_value": "揭阳",
+    "canonical_value": "揭阳市"
+  },
+  {
+    "raw_value": "攀枝花",
+    "canonical_value": "攀枝花市"
+  },
+  {
+    "raw_value": "文山",
+    "canonical_value": "文山壮族苗族自治州"
+  },
+  {
+    "raw_value": "新乡",
+    "canonical_value": "新乡市"
+  },
+  {
+    "raw_value": "新余",
+    "canonical_value": "新余市"
+  },
+  {
+    "raw_value": "无锡",
+    "canonical_value": "无锡市"
+  },
+  {
+    "raw_value": "日喀则",
+    "canonical_value": "日喀则市"
+  },
+  {
+    "raw_value": "日照",
+    "canonical_value": "日照市"
+  },
+  {
+    "raw_value": "昆明",
+    "canonical_value": "昆明市"
+  },
+  {
+    "raw_value": "昌吉回族",
+    "canonical_value": "昌吉回族自治州"
+  },
+  {
+    "raw_value": "昌都",
+    "canonical_value": "昌都市"
+  },
+  {
+    "raw_value": "昭通",
+    "canonical_value": "昭通市"
+  },
+  {
+    "raw_value": "晋中",
+    "canonical_value": "晋中市"
+  },
+  {
+    "raw_value": "晋城",
+    "canonical_value": "晋城市"
+  },
+  {
+    "raw_value": "普洱",
+    "canonical_value": "普洱市"
+  },
+  {
+    "raw_value": "景德镇",
+    "canonical_value": "景德镇市"
+  },
+  {
+    "raw_value": "曲靖",
+    "canonical_value": "曲靖市"
+  },
+  {
+    "raw_value": "朔州",
+    "canonical_value": "朔州市"
+  },
+  {
+    "raw_value": "朝阳",
+    "canonical_value": "朝阳市"
+  },
+  {
+    "raw_value": "本溪",
+    "canonical_value": "本溪市"
+  },
+  {
+    "raw_value": "来宾",
+    "canonical_value": "来宾市"
+  },
+  {
+    "raw_value": "杭州",
+    "canonical_value": "杭州市"
+  },
+  {
+    "raw_value": "松原",
+    "canonical_value": "松原市"
+  },
+  {
+    "raw_value": "林芝",
+    "canonical_value": "林芝市"
+  },
+  {
+    "raw_value": "果洛",
+    "canonical_value": "果洛藏族自治州"
+  },
+  {
+    "raw_value": "枣庄",
+    "canonical_value": "枣庄市"
+  },
+  {
+    "raw_value": "柳州",
+    "canonical_value": "柳州市"
+  },
+  {
+    "raw_value": "株洲",
+    "canonical_value": "株洲市"
+  },
+  {
+    "raw_value": "桂林",
+    "canonical_value": "桂林市"
+  },
+  {
+    "raw_value": "梅州",
+    "canonical_value": "梅州市"
+  },
+  {
+    "raw_value": "梧州",
+    "canonical_value": "梧州市"
+  },
+  {
+    "raw_value": "楚雄",
+    "canonical_value": "楚雄彝族自治州"
+  },
+  {
+    "raw_value": "榆林",
+    "canonical_value": "榆林市"
+  },
+  {
+    "raw_value": "武威",
+    "canonical_value": "武威市"
+  },
+  {
+    "raw_value": "武汉",
+    "canonical_value": "武汉市"
+  },
+  {
+    "raw_value": "毕节",
+    "canonical_value": "毕节市"
+  },
+  {
+    "raw_value": "永州",
+    "canonical_value": "永州市"
+  },
+  {
+    "raw_value": "汉中",
+    "canonical_value": "汉中市"
+  },
+  {
+    "raw_value": "汕头",
+    "canonical_value": "汕头市"
+  },
+  {
+    "raw_value": "汕尾",
+    "canonical_value": "汕尾市"
+  },
+  {
+    "raw_value": "江门",
+    "canonical_value": "江门市"
+  },
+  {
+    "raw_value": "池州",
+    "canonical_value": "池州市"
+  },
+  {
+    "raw_value": "沈阳",
+    "canonical_value": "沈阳市"
+  },
+  {
+    "raw_value": "沧州",
+    "canonical_value": "沧州市"
+  },
+  {
+    "raw_value": "河池",
+    "canonical_value": "河池市"
+  },
+  {
+    "raw_value": "河源",
+    "canonical_value": "河源市"
+  },
+  {
+    "raw_value": "泉州",
+    "canonical_value": "泉州市"
+  },
+  {
+    "raw_value": "泰安",
+    "canonical_value": "泰安市"
+  },
+  {
+    "raw_value": "泰州",
+    "canonical_value": "泰州市"
+  },
+  {
+    "raw_value": "泸州",
+    "canonical_value": "泸州市"
+  },
+  {
+    "raw_value": "洛阳",
+    "canonical_value": "洛阳市"
+  },
+  {
+    "raw_value": "济南",
+    "canonical_value": "济南市"
+  },
+  {
+    "raw_value": "济宁",
+    "canonical_value": "济宁市"
+  },
+  {
+    "raw_value": "海东",
+    "canonical_value": "海东市"
+  },
+  {
+    "raw_value": "海北",
+    "canonical_value": "海北藏族自治州"
+  },
+  {
+    "raw_value": "海南藏族自治州",
+    "canonical_value": "海南藏族自治州"
+  },
+  {
+    "raw_value": "海口",
+    "canonical_value": "海口市"
+  },
+  {
+    "raw_value": "海西",
+    "canonical_value": "海西蒙古族藏族自治州"
+  },
+  {
+    "raw_value": "淄博",
+    "canonical_value": "淄博市"
+  },
+  {
+    "raw_value": "淮北",
+    "canonical_value": "淮北市"
+  },
+  {
+    "raw_value": "淮南",
+    "canonical_value": "淮南市"
+  },
+  {
+    "raw_value": "淮安",
+    "canonical_value": "淮安市"
+  },
+  {
+    "raw_value": "深圳",
+    "canonical_value": "深圳市"
+  },
+  {
+    "raw_value": "清远",
+    "canonical_value": "清远市"
+  },
+  {
+    "raw_value": "温州",
+    "canonical_value": "温州市"
+  },
+  {
+    "raw_value": "渭南",
+    "canonical_value": "渭南市"
+  },
+  {
+    "raw_value": "湖州",
+    "canonical_value": "湖州市"
+  },
+  {
+    "raw_value": "湘潭",
+    "canonical_value": "湘潭市"
+  },
+  {
+    "raw_value": "湘西",
+    "canonical_value": "湘西土家族苗族自治州"
+  },
+  {
+    "raw_value": "湛江",
+    "canonical_value": "湛江市"
+  },
+  {
+    "raw_value": "滁州",
+    "canonical_value": "滁州市"
+  },
+  {
+    "raw_value": "滨州",
+    "canonical_value": "滨州市"
+  },
+  {
+    "raw_value": "漯河",
+    "canonical_value": "漯河市"
+  },
+  {
+    "raw_value": "漳州",
+    "canonical_value": "漳州市"
+  },
+  {
+    "raw_value": "潍坊",
+    "canonical_value": "潍坊市"
+  },
+  {
+    "raw_value": "潮州",
+    "canonical_value": "潮州市"
+  },
+  {
+    "raw_value": "濮阳",
+    "canonical_value": "濮阳市"
+  },
+  {
+    "raw_value": "烟台",
+    "canonical_value": "烟台市"
+  },
+  {
+    "raw_value": "焦作",
+    "canonical_value": "焦作市"
+  },
+  {
+    "raw_value": "牡丹江",
+    "canonical_value": "牡丹江市"
+  },
+  {
+    "raw_value": "玉林",
+    "canonical_value": "玉林市"
+  },
+  {
+    "raw_value": "玉树",
+    "canonical_value": "玉树藏族自治州"
+  },
+  {
+    "raw_value": "玉溪",
+    "canonical_value": "玉溪市"
+  },
+  {
+    "raw_value": "珠海",
+    "canonical_value": "珠海市"
+  },
+  {
+    "raw_value": "甘南",
+    "canonical_value": "甘南藏族自治州"
+  },
+  {
+    "raw_value": "甘孜",
+    "canonical_value": "甘孜藏族自治州"
+  },
+  {
+    "raw_value": "白城",
+    "canonical_value": "白城市"
+  },
+  {
+    "raw_value": "白山",
+    "canonical_value": "白山市"
+  },
+  {
+    "raw_value": "白银",
+    "canonical_value": "白银市"
+  },
+  {
+    "raw_value": "百色",
+    "canonical_value": "百色市"
+  },
+  {
+    "raw_value": "益阳",
+    "canonical_value": "益阳市"
+  },
+  {
+    "raw_value": "盐城",
+    "canonical_value": "盐城市"
+  },
+  {
+    "raw_value": "盘锦",
+    "canonical_value": "盘锦市"
+  },
+  {
+    "raw_value": "眉山",
+    "canonical_value": "眉山市"
+  },
+  {
+    "raw_value": "石嘴山",
+    "canonical_value": "石嘴山市"
+  },
+  {
+    "raw_value": "石家庄",
+    "canonical_value": "石家庄市"
+  },
+  {
+    "raw_value": "福州",
+    "canonical_value": "福州市"
+  },
+  {
+    "raw_value": "秦皇岛",
+    "canonical_value": "秦皇岛市"
+  },
+  {
+    "raw_value": "红河",
+    "canonical_value": "红河哈尼族彝族自治州"
+  },
+  {
+    "raw_value": "绍兴",
+    "canonical_value": "绍兴市"
+  },
+  {
+    "raw_value": "绥化",
+    "canonical_value": "绥化市"
+  },
+  {
+    "raw_value": "绵阳",
+    "canonical_value": "绵阳市"
+  },
+  {
+    "raw_value": "聊城",
+    "canonical_value": "聊城市"
+  },
+  {
+    "raw_value": "肇庆",
+    "canonical_value": "肇庆市"
+  },
+  {
+    "raw_value": "自贡",
+    "canonical_value": "自贡市"
+  },
+  {
+    "raw_value": "舟山",
+    "canonical_value": "舟山市"
+  },
+  {
+    "raw_value": "芜湖",
+    "canonical_value": "芜湖市"
+  },
+  {
+    "raw_value": "苏州",
+    "canonical_value": "苏州市"
+  },
+  {
+    "raw_value": "茂名",
+    "canonical_value": "茂名市"
+  },
+  {
+    "raw_value": "荆州",
+    "canonical_value": "荆州市"
+  },
+  {
+    "raw_value": "荆门",
+    "canonical_value": "荆门市"
+  },
+  {
+    "raw_value": "莆田",
+    "canonical_value": "莆田市"
+  },
+  {
+    "raw_value": "菏泽",
+    "canonical_value": "菏泽市"
+  },
+  {
+    "raw_value": "萍乡",
+    "canonical_value": "萍乡市"
+  },
+  {
+    "raw_value": "营口",
+    "canonical_value": "营口市"
+  },
+  {
+    "raw_value": "葫芦岛",
+    "canonical_value": "葫芦岛市"
+  },
+  {
+    "raw_value": "蚌埠",
+    "canonical_value": "蚌埠市"
+  },
+  {
+    "raw_value": "衡水",
+    "canonical_value": "衡水市"
+  },
+  {
+    "raw_value": "衡阳",
+    "canonical_value": "衡阳市"
+  },
+  {
+    "raw_value": "衢州",
+    "canonical_value": "衢州市"
+  },
+  {
+    "raw_value": "襄阳",
+    "canonical_value": "襄阳市"
+  },
+  {
+    "raw_value": "西双版纳",
+    "canonical_value": "西双版纳傣族自治州"
+  },
+  {
+    "raw_value": "西宁",
+    "canonical_value": "西宁市"
+  },
+  {
+    "raw_value": "西安",
+    "canonical_value": "西安市"
+  },
+  {
+    "raw_value": "许昌",
+    "canonical_value": "许昌市"
+  },
+  {
+    "raw_value": "贵港",
+    "canonical_value": "贵港市"
+  },
+  {
+    "raw_value": "贵阳",
+    "canonical_value": "贵阳市"
+  },
+  {
+    "raw_value": "贺州",
+    "canonical_value": "贺州市"
+  },
+  {
+    "raw_value": "资阳",
+    "canonical_value": "资阳市"
+  },
+  {
+    "raw_value": "赣州",
+    "canonical_value": "赣州市"
+  },
+  {
+    "raw_value": "赤峰",
+    "canonical_value": "赤峰市"
+  },
+  {
+    "raw_value": "辽源",
+    "canonical_value": "辽源市"
+  },
+  {
+    "raw_value": "辽阳",
+    "canonical_value": "辽阳市"
+  },
+  {
+    "raw_value": "达州",
+    "canonical_value": "达州市"
+  },
+  {
+    "raw_value": "运城",
+    "canonical_value": "运城市"
+  },
+  {
+    "raw_value": "连云港",
+    "canonical_value": "连云港市"
+  },
+  {
+    "raw_value": "迪庆",
+    "canonical_value": "迪庆藏族自治州"
+  },
+  {
+    "raw_value": "通化",
+    "canonical_value": "通化市"
+  },
+  {
+    "raw_value": "通辽",
+    "canonical_value": "通辽市"
+  },
+  {
+    "raw_value": "遂宁",
+    "canonical_value": "遂宁市"
+  },
+  {
+    "raw_value": "遵义",
+    "canonical_value": "遵义市"
+  },
+  {
+    "raw_value": "邢台",
+    "canonical_value": "邢台市"
+  },
+  {
+    "raw_value": "那曲",
+    "canonical_value": "那曲市"
+  },
+  {
+    "raw_value": "邯郸",
+    "canonical_value": "邯郸市"
+  },
+  {
+    "raw_value": "邵阳",
+    "canonical_value": "邵阳市"
+  },
+  {
+    "raw_value": "郑州",
+    "canonical_value": "郑州市"
+  },
+  {
+    "raw_value": "郴州",
+    "canonical_value": "郴州市"
+  },
+  {
+    "raw_value": "鄂尔多斯",
+    "canonical_value": "鄂尔多斯市"
+  },
+  {
+    "raw_value": "鄂州",
+    "canonical_value": "鄂州市"
+  },
+  {
+    "raw_value": "酒泉",
+    "canonical_value": "酒泉市"
+  },
+  {
+    "raw_value": "金华",
+    "canonical_value": "金华市"
+  },
+  {
+    "raw_value": "金昌",
+    "canonical_value": "金昌市"
+  },
+  {
+    "raw_value": "钦州",
+    "canonical_value": "钦州市"
+  },
+  {
+    "raw_value": "铁岭",
+    "canonical_value": "铁岭市"
+  },
+  {
+    "raw_value": "铜仁",
+    "canonical_value": "铜仁市"
+  },
+  {
+    "raw_value": "铜川",
+    "canonical_value": "铜川市"
+  },
+  {
+    "raw_value": "铜陵",
+    "canonical_value": "铜陵市"
+  },
+  {
+    "raw_value": "银川",
+    "canonical_value": "银川市"
+  },
+  {
+    "raw_value": "锡林郭勒",
+    "canonical_value": "锡林郭勒盟"
+  },
+  {
+    "raw_value": "锦州",
+    "canonical_value": "锦州市"
+  },
+  {
+    "raw_value": "镇江",
+    "canonical_value": "镇江市"
+  },
+  {
+    "raw_value": "长春",
+    "canonical_value": "长春市"
+  },
+  {
+    "raw_value": "长沙",
+    "canonical_value": "长沙市"
+  },
+  {
+    "raw_value": "长治",
+    "canonical_value": "长治市"
+  },
+  {
+    "raw_value": "阜新",
+    "canonical_value": "阜新市"
+  },
+  {
+    "raw_value": "阜阳",
+    "canonical_value": "阜阳市"
+  },
+  {
+    "raw_value": "防城港",
+    "canonical_value": "防城港市"
+  },
+  {
+    "raw_value": "阳江",
+    "canonical_value": "阳江市"
+  },
+  {
+    "raw_value": "阳泉",
+    "canonical_value": "阳泉市"
+  },
+  {
+    "raw_value": "阿克苏",
+    "canonical_value": "阿克苏地区"
+  },
+  {
+    "raw_value": "阿勒泰",
+    "canonical_value": "阿勒泰地区"
+  },
+  {
+    "raw_value": "阿坝",
+    "canonical_value": "阿坝藏族羌族自治州"
+  },
+  {
+    "raw_value": "阿拉善",
+    "canonical_value": "阿拉善盟"
+  },
+  {
+    "raw_value": "阿里",
+    "canonical_value": "阿里地区"
+  },
+  {
+    "raw_value": "陇南",
+    "canonical_value": "陇南市"
+  },
+  {
+    "raw_value": "随州",
+    "canonical_value": "随州市"
+  },
+  {
+    "raw_value": "雄安新区",
+    "canonical_value": "雄安新区"
+  },
+  {
+    "raw_value": "雅安",
+    "canonical_value": "雅安市"
+  },
+  {
+    "raw_value": "青岛",
+    "canonical_value": "青岛市"
+  },
+  {
+    "raw_value": "鞍山",
+    "canonical_value": "鞍山市"
+  },
+  {
+    "raw_value": "韶关",
+    "canonical_value": "韶关市"
+  },
+  {
+    "raw_value": "马鞍山",
+    "canonical_value": "马鞍山市"
+  },
+  {
+    "raw_value": "驻马店",
+    "canonical_value": "驻马店市"
+  },
+  {
+    "raw_value": "鸡西",
+    "canonical_value": "鸡西市"
+  },
+  {
+    "raw_value": "鹤壁",
+    "canonical_value": "鹤壁市"
+  },
+  {
+    "raw_value": "鹤岗",
+    "canonical_value": "鹤岗市"
+  },
+  {
+    "raw_value": "鹰潭",
+    "canonical_value": "鹰潭市"
+  },
+  {
+    "raw_value": "黄冈",
+    "canonical_value": "黄冈市"
+  },
+  {
+    "raw_value": "黄南",
+    "canonical_value": "黄南藏族自治州"
+  },
+  {
+    "raw_value": "黄山",
+    "canonical_value": "黄山市"
+  },
+  {
+    "raw_value": "黄石",
+    "canonical_value": "黄石市"
+  },
+  {
+    "raw_value": "黑河",
+    "canonical_value": "黑河市"
+  },
+  {
+    "raw_value": "黔东南",
+    "canonical_value": "黔东南苗族侗族自治州"
+  },
+  {
+    "raw_value": "黔南",
+    "canonical_value": "黔南布依族苗族自治州"
+  },
+  {
+    "raw_value": "黔西南",
+    "canonical_value": "黔西南布依族苗族自治州"
+  },
+  {
+    "raw_value": "齐齐哈尔",
+    "canonical_value": "齐齐哈尔市"
+  },
+  {
+    "raw_value": "龙岩",
+    "canonical_value": "龙岩市"
+  }
+]

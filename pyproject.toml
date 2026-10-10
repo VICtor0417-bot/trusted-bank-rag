@@ -1,0 +1,35 @@
+[project]
+name = "trusted-bank-rag"
+version = "0.1.0"
+description = "可溯源的银行监管制度与统计报表 Haystack RAG"
+requires-python = ">=3.11"
+dependencies = [
+  "haystack-ai==2.18.0",
+  "langgraph>=1.0,<2.0",
+  "sentence-transformers>=3.0.0",
+  "openai>=1.0.0",
+  "openpyxl>=3.1.0",
+  "pandas>=2.2.0",
+  "xlrd>=2.0.1",
+  "python-docx>=1.1.0",
+  "jieba==0.42.1",
+  "pypdf>=5.0.0",
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.setuptools.package-data]
+bank_rag = ["*.json"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
