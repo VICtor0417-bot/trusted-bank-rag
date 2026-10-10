@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "only_documented_copy_differences": true,
+    "no_payload_risks": true,
+    "no_real_env": true,
+    "no_private_data_roots": true,
+    "documentation_links_valid": true
+  },
+  "risks": [],
+  "term_counts": {
+    "key": 255,
+    "api_key": 26,
+    "secret": 6,
+    "token": 51,
+    "password": 0,
+    "credential": 23,
+    "Authorization": 0,
+    "Bearer": 0,
+    "sk-": 0,
+    "C:/": 0,
+    "D:/": 0,
+    "/Users/": 0,
+    "/home/": 0
+  },
+  "term_interpretation": "Credential variable names, SDK token fields and Authorization documentation are expected; matches are not automatically secrets. No values from private environment were read.",
+  "documented_copy_differences": [
+    "src/bank_rag/api.py",
+    "src/bank_rag/ingest.py",
+    "pyproject.toml"
+  ],
+  "missing_links": [],
+  "copied_files": 28,
+  "license": "Unlicense retained from remote",
+  "fresh_install_verified": false,
+  "api_calls": 0
+}

@@ -1,0 +1,5 @@
+{
+  "knowledge": "data/demo/generated/knowledge.jsonl",
+  "retrieval_mode": "bm25",
+  "api_calls": false
+}
