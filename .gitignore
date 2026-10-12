@@ -24,9 +24,10 @@ tmp/
 data/raw/
 data/private/
 data/demo/generated/
-# Local user corpus and runtime output: commit directory placeholders only.
+# Local corpus/output: placeholders and one explicitly public synthetic fixture only.
 /raw/*
 !/raw/.gitkeep
+!/raw/001_2099年银行业总资产、总负债（月度）_虚构测试.xlsx
 /data/generated/*
 !/data/generated/.gitkeep
 /results/*
