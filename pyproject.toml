@@ -20,6 +20,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0"]
+jev = ["typesafe-sdk>=0.7.2,<1.0"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

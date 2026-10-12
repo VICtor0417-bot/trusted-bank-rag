@@ -18,7 +18,6 @@ from haystack.components.retrievers.in_memory import InMemoryBM25Retriever, InMe
 from haystack.components.writers import DocumentWriter
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.utils import Secret
-from sentence_transformers import CrossEncoder, SentenceTransformer
 
 from .canonicalization import area_match_key, area_present_in_text
 from .financial_lexicon import canonical_financial_term, metric_variants
@@ -260,10 +259,11 @@ class LocalDocumentEmbedder:
     def __init__(self, model: str, meta_fields_to_embed: list[str] | None = None):
         self.model_name = model
         self.meta_fields_to_embed = meta_fields_to_embed or []
-        self.model: SentenceTransformer | None = None
+        self.model: Any = None
 
     def warm_up(self) -> None:
         if self.model is None:
+            from sentence_transformers import SentenceTransformer
             self.model = SentenceTransformer(self.model_name)
 
     @component.output_types(documents=list[Document])
@@ -287,10 +287,11 @@ class LocalTextEmbedder:
 
     def __init__(self, model: str):
         self.model_name = model
-        self.model: SentenceTransformer | None = None
+        self.model: Any = None
 
     def warm_up(self) -> None:
         if self.model is None:
+            from sentence_transformers import SentenceTransformer
             self.model = SentenceTransformer(self.model_name)
 
     @component.output_types(embedding=list[float])
@@ -306,10 +307,11 @@ class LocalCrossEncoderRanker:
     def __init__(self, model: str, top_k: int = 6):
         self.model_name = model
         self.top_k = top_k
-        self.model: CrossEncoder | None = None
+        self.model: Any = None
 
     def warm_up(self) -> None:
         if self.model is None:
+            from sentence_transformers import CrossEncoder
             self.model = CrossEncoder(self.model_name)
 
     @component.output_types(documents=list[Document])
@@ -649,6 +651,7 @@ class TrustedRAG:
         # representation. Catalog blocks remain discovery hints, never facts.
         if os.getenv("RAG_MULTIVECTOR_CATALOG", "0").strip().lower() in {"1", "true", "yes"}:
             from bank_rag.catalog_blocks import build_blocks
+            from sentence_transformers import SentenceTransformer
             catalog_model = SentenceTransformer(embedding_model)
             blocks = []
             for catalog in table_source_catalog:

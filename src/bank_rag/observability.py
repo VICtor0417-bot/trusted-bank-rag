@@ -120,14 +120,15 @@ def build_evidence_decision_trace(state: dict[str, Any], result: dict[str, Any])
         })
     behavior = final_behavior(result)
     complete = assessment.get("complete")
+    allowed = assessment.get("allow_to_answer", complete)
     graph_trace = list(state.get("graph_trace") or result.get("graph_trace") or [])
     explicitly_rejected = any(
-        node in graph_trace for node in ("reject_incomplete", "reject_unsupported")
+        node in graph_trace for node in ("reject_incomplete", "reject_incomplete_evidence", "reject_unsupported")
     )
-    gate_decision = "refuse" if explicitly_rejected else ("answer" if complete else "refuse")
-    if behavior == "clarify" and not complete:
+    gate_decision = "refuse" if explicitly_rejected else ("answer" if allowed else "refuse")
+    if behavior == "clarify" and not allowed:
         gate_decision = "clarify"
-    if behavior == "partial" and complete:
+    if behavior == "partial" and allowed:
         gate_decision = "partial"
     missing_slots = [slot["slot_id"] for slot in slots if not slot["filled"]]
     reasons = list(assessment.get("reasons") or [])
@@ -137,13 +138,13 @@ def build_evidence_decision_trace(state: dict[str, Any], result: dict[str, Any])
 
     # Runtime has no Gold/Expected Source. Only label a stage when the state
     # proves it; otherwise retain unknown for the offline scorer/human audit.
-    if behavior == "answer" and complete:
+    if behavior == "answer" and allowed and not explicitly_rejected:
         death_stage = "no_failure"
         death_reason = "gate passed and the system produced an answer"
     elif not retrieval_items and not cross_items and not documents:
         death_stage = "retrieval"
         death_reason = "no candidate evidence was recorded and assembly is empty"
-    elif complete and behavior in {"refuse", "clarify"} and "generate" in graph_trace:
+    elif allowed and behavior in {"refuse", "clarify"} and "generate" in graph_trace:
         death_stage = "generation"
         death_reason = "evidence gate passed before the final refusal or clarification"
     else:
@@ -171,7 +172,11 @@ def build_evidence_decision_trace(state: dict[str, Any], result: dict[str, Any])
         },
         "sufficiency_decision": {
             "decision": gate_decision,
-            "reason": "；".join(reasons) or ("evidence_complete" if complete else "evidence_incomplete"),
+            "reason": ("rule_gate_or_jev_answer" if allowed and not complete
+                       else "；".join(reasons) or ("evidence_complete" if complete else "evidence_incomplete")),
+            "rule_complete": complete,
+            "admission_sources": list(assessment.get("admission_sources") or []),
+            "jev_action": (assessment.get("jev") or {}).get("action"),
             "missing_slots": missing_slots,
         },
         "final_context": {

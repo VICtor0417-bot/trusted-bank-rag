@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-12",
+  "scope": "public repository only; frozen original unchanged",
+  "tests": {
+    "passed": 29,
+    "real_sdk_mock_transport": true,
+    "langgraph_or_routing": true,
+    "api_with_mock_generation": true
+  },
+  "demo": {
+    "indexed_records": 21,
+    "queries_with_evidence": 4,
+    "workflow_compiled": true,
+    "llm_called": false
+  },
+  "paid_api_calls": 0,
+  "real_jev_semantics_verified": false,
+  "real_llm_generation_verified": false,
+  "hybrid_verified": false,
+  "environment": "Public .venv with offline BM25/Jev dependencies; Sentence Transformers and model weights not installed; not a full dependency install validation",
+  "versions": {
+    "haystack-ai": "2.18.0",
+    "langgraph": "1.2.14",
+    "typesafe-sdk": "0.7.4",
+    "openai": "3.29.0",
+    "pytest": "9.1.1",
+    "fastapi": "0.143.0",
+    "pandas": "3.0.6",
+    "openpyxl": "3.1.5"
+  },
+  "cli": {
+    "exit_code": 0,
+    "jev_enabled": true,
+    "jev_status": "missing_api_key",
+    "admission_sources": [
+      "rule_gate"
+    ],
+    "answer_method": "retrieved_evidence_only",
+    "citations": 6
+  }
+}

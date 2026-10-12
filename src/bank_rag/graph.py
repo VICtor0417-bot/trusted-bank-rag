@@ -22,6 +22,7 @@ from .question_parser import QuestionPlan, insurance_operating_overview_metrics,
 from .table_selection import selection_slot_matches
 from .observability import build_evidence_decision_trace, evidence_id
 from .evidence_gate_policy import numeric_slot_fact, statistical_lookup, temporal_semantics, unsupported_requested_operation
+from .jev_gate import admission, deduplicate_documents, jev_enabled, judge_evidence
 
 
 class RAGState(TypedDict, total=False):
@@ -64,6 +65,10 @@ def _document_key(document: Any) -> str:
 
 
 def _merge_documents(*groups: list[Any]) -> list[Any]:
+    if jev_enabled():
+        # Keep same-ID representations with changed content/coordinates until
+        # the admission audit; identity alone is insufficient for exact dedup.
+        return deduplicate_documents([document for group in groups for document in group])[0]
     merged: list[Any] = []
     seen: set[str] = set()
     for group in groups:
@@ -614,17 +619,27 @@ def build_rag_graph(rag: Any):
         }
 
     def evidence_check_node(state: RAGState) -> RAGState:
+        documents = state.get("documents", [])
+        dedup_audit = None
+        if jev_enabled():
+            documents, dedup_audit = deduplicate_documents(documents)
         assessment = assess_evidence(
-            _plan(state), state.get("documents", []), state.get("source_routing", []),
+            _plan(state), documents, state.get("source_routing", []),
             state.get("evidence_slots", []),
         )
+        judgment = judge_evidence(state["question"], state["question_plan"], documents)
+        assessment.update(admission(assessment["complete"], judgment))
+        assessment["jev"] = judgment
+        if dedup_audit is not None:
+            assessment["evidence_deduplication"] = dedup_audit
         return {
+            "documents": documents,
             "evidence_assessment": assessment,
             "graph_trace": [*state.get("graph_trace", []), "check_evidence_completeness"],
         }
 
     def after_evidence_check(state: RAGState) -> str:
-        if state["evidence_assessment"]["complete"]:
+        if state["evidence_assessment"]["allow_to_answer"]:
             if unsupported_requested_operation(_plan(state)):
                 return "reject_unsupported"
             return "classify_problem"
@@ -719,6 +734,10 @@ def build_rag_graph(rag: Any):
         return {"graph_trace": [*state.get("graph_trace", []), "classify_problem_type"]}
 
     def after_classification(state: RAGState) -> str:
+        # Jev-only admission permits final generation, not an assertion that
+        # deterministic operands or hard rule slots have been verified.
+        if not state["evidence_assessment"]["complete"]:
+            return "generate"
         return "table_calculator" if _plan(state).intent == "table_calculation" else "generate"
 
     def table_node(state: RAGState) -> RAGState:
@@ -746,7 +765,8 @@ def build_rag_graph(rag: Any):
 
     def generate_node(state: RAGState) -> RAGState:
         generation_kwargs = {}
-        action = state.get("evidence_assessment", {}).get("shadow_jev_action")
+        assessment = state.get("evidence_assessment", {})
+        action = assessment.get("jev", {}).get("action") or assessment.get("shadow_jev_action")
         if action == "needs_clarification":
             generation_kwargs["generation_advisory"] = {
                 "judgment_source": "existing_jev", "action": action,

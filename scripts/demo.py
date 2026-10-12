@@ -11,6 +11,7 @@ def main():
     if not args.ask:
         os.environ.pop('DEEPSEEK_API_KEY',None)
         os.environ.pop('TYPESAFE_API_KEY',None)
+        os.environ['RAG_ENABLE_JEV']='0'
     os.environ['RAG_RETRIEVAL_MODE']=config['retrieval_mode']
     os.environ['RAG_ENABLE_LLM_PLANNER']='0'
     os.environ['RAG_ORCHESTRATOR']='langgraph'

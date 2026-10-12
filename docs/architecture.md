@@ -9,6 +9,7 @@
 | 文件内词法检索 | source_local_lexical.py |
 | 表格选择、期间绑定 | table_selection.py、explicit_row_selection.py、period_binding.py |
 | 门控及生成策略 | evidence_gate_policy.py、generation_policy.py |
+| 可选 Jev 判断与 OR 放行 | jev_gate.py；graph.py 接入（默认关闭） |
 | LangGraph 状态和路由 | graph.py |
 | 评测代码 | evaluate.py、evaluator.py、evaluation_formulas.py、evaluation_locators.py |
 | 接口 | cli.py、api.py |
