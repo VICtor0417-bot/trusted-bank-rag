@@ -24,7 +24,21 @@ def get_rag() -> TrustedRAG:
     return TrustedRAG(knowledge)
 
 
-app = FastAPI(title="可信银行监管 RAG", version="0.1.0")
+app = FastAPI(title="可信银行监管 RAG", version="0.2.0")
+
+
+def require_rag() -> TrustedRAG:
+    """Report initialization failures without exposing corpus or credential details."""
+    try:
+        return get_rag()
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except (OSError, ImportError, ValueError) as exc:
+        raise HTTPException(status_code=503, detail={
+            "error": "rag_initialization_failed",
+            "exception_type": type(exc).__name__,
+            "message": "知识库或检索模型初始化失败，请检查依赖、模型缓存和知识库后重启服务。",
+        }) from exc
 
 
 @app.get("/health")
@@ -35,7 +49,7 @@ def health() -> dict[str, str]:
 @app.post("/retrieve")
 def retrieve(payload: Question) -> dict:
     try:
-        rag = get_rag()
+        rag = require_rag()
         documents = rag.retrieve(payload.question)
         return {"citations": rag.citations(documents), "evidence": [document.content for document in documents]}
     except FileNotFoundError as exc:
@@ -51,6 +65,6 @@ def parse_question_endpoint(payload: Question) -> dict:
 @app.post("/ask")
 def ask(payload: Question) -> dict:
     try:
-        return get_rag().ask(payload.question)
+        return require_rag().ask(payload.question)
     except FileNotFoundError as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc

@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+pytest-cache-files-*/
 .ipynb_checkpoints/
 .venv/
 venv/
@@ -23,6 +24,13 @@ tmp/
 data/raw/
 data/private/
 data/demo/generated/
+# Local user corpus and runtime output: commit directory placeholders only.
+/raw/*
+!/raw/.gitkeep
+/data/generated/*
+!/data/generated/.gitkeep
+/results/*
+!/results/.gitkeep
 *.safetensors
 *.pt
 *.pth

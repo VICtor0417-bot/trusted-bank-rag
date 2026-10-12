@@ -24,6 +24,8 @@
 - [ ] 保留 LICENSE，检查新增第三方代码的许可证
 
 ## 6. 运行 demo
+
+自己的资料统一放在项目根目录 `raw/`；知识库和梗概写入 `data/generated/`；回答和报告写入 `results/`。这些目录只公开 `.gitkeep` 占位文件，实际资料由 Git 忽略。完整入库及 CLI/API 命令见 README 的“使用自己的资料”；合成 demo 使用独立目录。
 ```sh
 python -m pip install -e ".[dev]"
 python scripts/demo.py
@@ -35,14 +37,13 @@ python -m pytest tests
 本项目依赖声明位于 pyproject.toml；不导出包含本地实验环境的整个 pip freeze。更新后在隔离环境执行安装、demo 与测试，记录版本。模型权重不提交。
 
 ## 8. Git 提交
-在本公开目录单独初始化仓库，先检查待提交文件：
+在已有 Git 仓库的公开副本中检查和提交，不要再次初始化，也不要在父目录提交：
 ```sh
-git init
 git status
-git add .
+# 使用 git add 明确列出审核过的代码、文档、配置和 .gitkeep。
 git diff --cached --stat
-git commit -m "Prepare public code and synthetic demo"
-# 配置自己的远端并再次复查后，手动执行：
-git push
+git commit -m "Describe reviewed changes"
+git pull --rebase origin main
+git push origin main
 ```
-本公开目录已建立独立 Git 仓库。后续提交前继续执行上述检查，不要在原项目的父目录直接提交全部文件。
+本公开目录已建立独立 Git 仓库。冲突解决后再推送，不使用 force push。完整从安装到启动的操作见 README；其中 dotenv 命令加载本地 `.env`，该文件不提交。0.2.0 已移除当前树里的 Python 缓存和 demo 生成产物，原始合成资料及生成脚本仍公开。

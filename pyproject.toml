@@ -1,6 +1,6 @@
 [project]
 name = "trusted-bank-rag"
-version = "0.1.0"
+version = "0.2.0"
 description = "可溯源的银行监管制度与统计报表 Haystack RAG"
 requires-python = ">=3.11"
 dependencies = [
@@ -16,6 +16,7 @@ dependencies = [
   "pypdf>=5.0.0",
   "fastapi>=0.115.0",
   "uvicorn[standard]>=0.30.0",
+  "python-dotenv[cli]>=1.0,<2.0",
 ]
 
 [project.optional-dependencies]
