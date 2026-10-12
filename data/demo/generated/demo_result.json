@@ -1,0 +1,221 @@
+{
+  "indexed_records": 21,
+  "workflow_compiled": true,
+  "llm_called": false,
+  "results": [
+    {
+      "question": "星桥演示机构用什么标签标记演示档案？ archive label",
+      "result": {
+        "mode": "offline_evidence_preview",
+        "evidence_present": true,
+        "answer_preview": "星桥演示机构规则（虚构）\n本文完全自建，仅用于软件演示，不构成任何真实金融制度。\n星桥演示机构使用紫色标签标记演示档案。档案复核完成后，由两名演示管理员共同确认归档；复核状态未知时，应询问管理员，不得推定已经完成。\narchive label: 紫色标签。\njoint review: 两名演示管理员共同确认归档。",
+        "citations": [
+          {
+            "source_title": "fictional_rules",
+            "source_path": "fictional_rules.docx",
+            "section": "正文",
+            "evidence_type": "clause"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "cell": "E3",
+            "evidence_type": "table_cell"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "cell": "E2",
+            "evidence_type": "table_cell"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_evidence_group"
+          }
+        ]
+      }
+    },
+    {
+      "question": "星桥演示机构归档需要谁确认？ joint review",
+      "result": {
+        "mode": "offline_evidence_preview",
+        "evidence_present": true,
+        "answer_preview": "星桥演示机构规则（虚构）\n本文完全自建，仅用于软件演示，不构成任何真实金融制度。\n星桥演示机构使用紫色标签标记演示档案。档案复核完成后，由两名演示管理员共同确认归档；复核状态未知时，应询问管理员，不得推定已经完成。\narchive label: 紫色标签。\njoint review: 两名演示管理员共同确认归档。",
+        "citations": [
+          {
+            "source_title": "fictional_rules",
+            "source_path": "fictional_rules.docx",
+            "section": "正文",
+            "evidence_type": "clause"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 1,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_evidence_group"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "evidence_type": "table_evidence_group"
+          }
+        ]
+      }
+    },
+    {
+      "question": "2041年1月星桥演示机构演示档案件数是多少？ 2041-01 archive cases",
+      "result": {
+        "mode": "offline_evidence_preview",
+        "evidence_present": true,
+        "answer_preview": "文件：fictional_statistics\n工作表：虚构统计\n行：2\nA2=2041-01；B2=星桥演示机构；C2=17；D2=件；E2=archive cases",
+        "citations": [
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "cell": "E3",
+            "evidence_type": "table_cell"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "cell": "A3",
+            "evidence_type": "table_cell"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_evidence_group"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "cell": "A2",
+            "evidence_type": "table_cell"
+          }
+        ]
+      }
+    },
+    {
+      "question": "2041年2月星桥演示机构演示档案件数是多少？ 2041-02 archive cases",
+      "result": {
+        "mode": "offline_evidence_preview",
+        "evidence_present": true,
+        "answer_preview": "文件：fictional_statistics\n工作表：虚构统计\n行：3\nA3=2041-02；B3=星桥演示机构；C3=23；D3=件；E3=archive cases",
+        "citations": [
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "cell": "E3",
+            "evidence_type": "table_cell"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 2,
+            "evidence_type": "table_row"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "cell": "A3",
+            "evidence_type": "table_cell"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "evidence_type": "table_evidence_group"
+          },
+          {
+            "source_title": "fictional_statistics",
+            "source_path": "fictional_statistics.xlsx",
+            "sheet": "虚构统计",
+            "row": 3,
+            "cell": "B3",
+            "evidence_type": "table_cell"
+          }
+        ]
+      }
+    }
+  ]
+}
